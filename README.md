@@ -30,10 +30,7 @@ HuggingFace pipeline runs inference on the input text
 Response travels back through NGINX to your notebook
 
 Parallel Processing
-The notebook uses ThreadPoolExecutor to send multiple requests simultaneously:
-
-Sequential: Sends one request, waits for response, then sends next
-Parallel: Sends all requests at once, collects responses as they complete
+The notebook uses ThreadPoolExecutor to send multiple requests simultaneously. Sends all requests at once, collects responses as they complete
 
 
 
